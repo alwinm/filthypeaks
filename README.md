@@ -24,5 +24,5 @@ I do not condone this for serious scientific purposes.
 
 The basic idea is that local extrema form a hierarchy. On the root level are extrema of the array itself, and the next level are extrema of the extrema of that array. This can sometimes remove noise.
 
-[[extremum.png]]
-[[peaks.png]]
+![Extremum (points) of signal (orange) with noise](extremum.png)
+![Peaks (points) of signal (orange) with noise](peaks.png)
