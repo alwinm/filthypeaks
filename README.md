@@ -2,22 +2,26 @@
 
 A Filthy Way of Finding Peaks
 
-I do not condone this for serious scientific purposes. 
+Use at own peril 
 
 # Basic Usage
 
     import filthypeaks.test as ft
-    # contains tests    
+    # contains tests
+    
     ft.alltests(1000,3)
     # runs tests on an array of length 1000 with 3 iterations
 
     import filthypeaks.peaks as fp
     # main code
-    fp.find_peaks(array,iterations)
-    # main function 
-    fp.iterate(array,points)
+    
+    peak_values,peak_indices = fp.find_peaks(array,iterations)
+    # main function
+    
+    array,points = fp.iterate(array,points)
     # perform a single iteration of max-of-max
-    fp.extremum_iterate(array,points)
+    
+    array,points = fp.extremum_iterate(array,points)
     # perform a single iteration of max-of-max and min-of-min
 
 # Basic Idea
